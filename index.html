@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="container">
+
+            <h1>Generate Your Password...</h1>
+
+            <div class="box-container">
+
+                <div class="box-inside">
+
+                    <h3>Random Password Generator</h3>
+
+                    <input type="text" id="max_char" placeholder="Enter Maximum Characters...">
+                    <input type="text" id="pass_place" placeholder="Your Password goes here...">
+
+                    <div class="btn-category">
+                        <button type="submit" id="Generate">Generate</button>
+                        <button type="submit" id="copy_text">Copy</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="popupMessage" class="hidden">Text Copied!</div>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
